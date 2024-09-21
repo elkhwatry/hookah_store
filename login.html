@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Real hookah deal</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body>
+            <!--start navbar-->
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                <a class="navbar-brand text-white" href="#">Real deal hookah </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link  btn" aria-current="page" href="index.html">Home</a>
+                        </li>                  
+                    </ul>
+                </div>
+                </div>
+            </nav>
+            <!--end navbar-->
+            <!--start login-->
+                <div id='login-form'class='login-page'>
+                    <div class="form-box">
+                        <div class='button-box'>
+                            <div id='btn'></div>
+                            <button type='button'onclick='login()'class='toggle-btn1'>Login</button>
+                            <button type='button'onclick='register()'class='toggle-btn2'>Register</button>
+                        </div>
+                        <form id='login' class='input-group-login'>
+                            <input type='text'class='input-field'placeholder='Email Id' required >
+                            <input type='password'class='input-field'placeholder='Enter Password' required>
+                            <input type='checkbox'class='check-box'><span>Remember Password</span>
+                            <button type='submit'class='submit-btn'>Log in</button>
+                        </form>
+                        <form id='register' class='input-group-register'>
+                            <input type='text'class='input-field'placeholder='First Name' required>
+                            <input type='text'class='input-field'placeholder='Last Name ' required>
+                            <input type='email'class='input-field'placeholder='Email Id' required>
+                            <div class="alert alert-danger" role="alert">
+                                Error! Confirm Password Not Match
+                            </div>
+                            <input type='password'class='input-field pswrd_1'placeholder='Enter Password' required>
+                            <input type='password'class='input-field pswrd_2'placeholder='Confirm Password'  required>
+                            <input type='checkbox'class='check-box'><span>I agree to the terms and                                                   conditions</span>
+                            <button type='submit'class='submit-btn ' id="btn1">Register</button>
+                        </form>
+                    </div>
+                </div>
+            <!--end login-->
+            <!--start footer-->
+            <section class="footer">
+                <div class="copyright text-center">
+                    Copyright &copy; 2021 all rights reversed | <span>Real deal hookah</span>
+                </div>
+            </section>
+            <!--end footer-->
+        
+     <!--start video-->
+     
+        <video autoplay loop play-inline muted >
+            <source src="img/video1.mp4">
+                video is not load
+        </video>
+     <!--end video-->
+            
+        <script src="js/popper.min.js"></script>
+        <script src="js/jQuery v3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
